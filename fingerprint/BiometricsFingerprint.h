@@ -19,7 +19,6 @@
 #define ANDROID_HARDWARE_BIOMETRICS_FINGERPRINT_V2_3_BIOMETRICSFINGERPRINT_H
 
 #include <hardware/fingerprint.h>
-
 #include <android/hardware/biometrics/fingerprint/2.3/IBiometricsFingerprint.h>
 
 namespace android {
