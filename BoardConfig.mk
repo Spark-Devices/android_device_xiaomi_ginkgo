@@ -191,3 +191,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
+
+# System props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
