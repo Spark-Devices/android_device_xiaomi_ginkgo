@@ -6,12 +6,14 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
+    AndroidAutoStubPrebuilt \
     arcore \
     Camera2 \
+    CalendarGooglePrebuilt \
     DevicePolicyPrebuilt \
     DiagnosticsToolPrebuilt \
-    Drive \
     GoogleCamera \
+    GoogleFeedback \
     Maps \
     MyVerizonServices \
     OBDM_Permissions \
@@ -21,6 +23,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Ornament \
     PixelLiveWallpaperPrebuilt \
     PixelWallpapers2020 \
+    RecorderPrebuilt \
     SafetyHubPrebuilt \
     ScribePrebuilt \
     Showcase \
@@ -28,11 +31,13 @@ LOCAL_OVERRIDES_PACKAGES := \
     SoundAmplifierPrebuilt \
     SprintDM \
     SprintHM \
+    TipsPrebuilt \
     VZWAPNLib \
     VzwOmaTrigger \
+    Videos \
     WallpapersBReel2020 \
     YouTube \
-    YouTubeMusicPrebuilt
+    YouTubeMusicPrebuilt 
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
